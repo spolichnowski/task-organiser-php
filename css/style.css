@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:100');
+
+body {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    background-color: rgb(236, 236, 236);
+}
+
+button {
+    font-family: 'Barlow', sans-serif;
+}
+
+footer {
+	position: absolute;
+    width: 100%;
+	color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 220;
+    bottom: 0;
+}
+
+.select-margin {
+    margin-left: 595px;
+}
+
+.select {
+    border: 0;
+    border-radius: 0px;
+    margin-top: 5px;
+    width: 150px;
+    height: 25px;
+    font-size: 15px;
+    background-color: #0F3263;
+    color: white;
+    box-shadow: 0 0 3px black;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+a {
+    font-family: 'Barlow', sans-serif;
+}
+
+.red {
+    background-color: red !important;
+}
+
+.display-none {
+    display: none;
+}
+
+.escape {
+    float: right !important;
+    color: black !important;
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 30px !important;
+    background-color: rgba(0,0,0,0) !important;
+    border: 0 !important;
+    margin-right: 3px !important;
+}
+
+.escape:focus {
+    outline: none !important;
+}
+
+/* INDEX */
+
+#background {
+    background-image: url('../images/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#background2 {
+    background-image: url('../images/bg3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#background-task {
+    background-image: url('../images/bg4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;   
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    text-align: center;
+}
+
+.links h1 {
+    font-size: 50px;
+    margin: 30px 0;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+}
+
+.a-link-border {
+    text-decoration: none;
+    color: #E3D7D2;
+    padding: 8px 20px;
+    border: solid 1px #E3D7D2; 
+    margin: 4px;
+}
+
+/* DASHBOARD */
+
+nav {
+    width: 100%;
+    height: 50px;
+}
+
+nav ul {
+    padding: 10px 20px 0 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: block;
+    float: left;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    padding: 10px 10px; 
+    margin: 30px 8px 0 8px !important; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+}
+
+.li-button {
+    background-color: #860ba4;
+    box-shadow: 0 0 1px black;
+}
+
+.li-button button {
+    background-color: #860ba4;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+.li-button1 {
+    background-color: #0F3263;
+    box-shadow: 0 0 1px black;
+}
+
+.li-button2 {
+    background-color: #0F3263;
+    box-shadow: 0 0 1px black;
+}
+
+.ul-p {
+    margin-top: 10px;
+    clear: both;
+    display: none;
+}
+
+.li2 {
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin: 4px 0; 
+}
+
+.li-button1:hover .ul-p {
+    display: block;
+}
+
+.a-button {
+    padding: 12px 15px;
+    background-color: #860ba4;
+    box-shadow: 0 0 3px black;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.app-description {
+    margin: 45vh 10px 0 0;
+    width: 500px;
+    color: white;
+    text-align: right;
+    right: 10px !important;
+    position: absolute;
+    text-shadow: 0 0 3px black;
+}
+
+.app-description h1 {
+    font-size: 40px;
+}
+
+.projects-list {
+    border-left: solid white 1px;
+    border-right: solid white 1px;
+}
+
+.brand-name {
+    margin: 30px 0 0 0;
+    padding: 10px 70px 14px 15px;
+    background-color: #860ba4;
+    box-shadow: 0 0 6px black;
+}
+
+.brand-name h1 {
+    margin: 0 !important;
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.date {
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    padding: 10px;    
+}
+
+.project-box-wrapper {
+    padding: 10px 0 0 40px;
+    margin: 80px 0 0 10px;
+}
+
+.project-box-wrapper a {
+    text-decoration: none;
+}
+
+.project-box {
+    background-color: #0F3263;
+    margin: 10px;
+    padding: 1px 20px;
+    color: white;
+    box-shadow: 0 0 4px black;
+}
+
+/* TASKS */
+
+.date-task {
+    background-color: #0F3263;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+    box-shadow: 0px 0px 8px black;
+}
+
+.name-task {
+    background-color: #0F3263;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 40px 0 10px 0;
+    box-shadow: 0px 0px 8px black;
+}
+
+.name-task h2 {
+    margin: 0;
+}
+
+.date-task h2 {
+    margin: 0;
+}
+
+.plus-icon {
+    padding: 15px;;
+}
+
+.home-icon {
+    padding: 15px;
+}
+
+.plus-icon button {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+}
+
+.plus-icon button:focus {
+    outline: none;
+}
+
+.plus-icon button img {
+    width: 50px;
+    height: 50px;
+}
+
+.home-icon a img {
+    width: 50px;
+    height: 50px;
+}
+
+.left-nav {
+    margin-left: 5px;
+    width: 300px;
+    height: 100vh;
+    float: left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.left-date h2 {
+    margin: 0;
+}
+
+.projects {
+    box-shadow: 0 0 8px black;
+}
+
+.project {
+    color: white;
+    padding: 10px 12px;
+    text-align: justify;
+    background-color: #0F3263;
+}
+
+.edit-project {
+    height: 5vh;
+    width: 300px;
+    margin: 10px 0;
+}
+
+.edit-project button {
+    background-color: #B77005;
+    color: white;
+    width: 300px;  
+    border: none;
+    padding: 20px auto;
+    box-shadow: 0 0 6px black;
+}
+
+.task-wrapper {
+    height: 100%;
+    padding: 100px 20px;
+    margin-left: 300px;
+}
+
+.task-c {
+    float: left;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-c-button {
+    float: left;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.border {
+    box-shadow: 0 0 6px grey;
+    width: 1000px;
+    height: 40px;
+    margin: 5px auto;
+    background-color: white;
+    padding: 5px 0;
+}
+
+.border-th {
+    box-shadow: 0 0 4px black;
+    width: 1000px;
+    height: 40px;
+    margin: 5px auto;  
+    background-color: #0F3263;
+    color: white;
+    padding: 5px 0;
+}
+
+.done {
+    border-radius: 27px;
+    background-color: #446D23;
+    text-decoration: line-through;
+    color: white;
+}
+
+.to-do {
+    border-radius: 27px;
+    background-color: #B77005;
+    color: white;
+}
+
+.more-button {
+    border-radius: 50%;
+    background-color: white;
+    border: solid 10px #174991;
+    width: 10px;
+    height: 10px;
+}
+
+.task-c-button button  {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+}
+
+.task-c-button button:focus {
+    outline: none;
+}
+
+/* FORM */
+
+#background-login {
+    background-image: url('../images/bg2.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.login-wrapper {
+    background-color: white;
+    width: 320px;
+    box-shadow: 0 0 8px black;
+}
+
+.register-wrapper {
+    background-color: white;
+    width: 340px;
+    box-shadow: 0 0 8px black;
+}
+
+.login-form {
+    padding: 20px 40px 40px 40px;
+}
+
+.login-wrapper h1 {
+    font-family: 'Barlow', sans-serif;
+}
+
+.login-form input {
+    width: 240px;
+    height: 45px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px black solid;
+    font-size: 15px;
+}
+
+.login-form textarea {
+    width: 240px;
+    height: 200px;
+    border-bottom: 1px black solid;
+    font-size: 15px;
+}
+
+.login-form input:focus {
+    outline: none !important; 
+}
+
+.login-form button {
+    margin-top: 5px;
+    width: 246px;
+    height: 45px;
+    font-size: 15px;
+    background-color: #174991;
+    color: white;
+}
+
+.register-form {
+    padding: 20px 50px 90px 50px;
+}
+
+/* ADD FORM */
+
+#form {
+    display: none;
+}
+
+#form2 {
+    display: none;
+}
+
+#edit-project {
+    display: none;
+}
+
+.project-add {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 200;
+}
+
+.task-add {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 200;
+    top: 0;
+    left: 0;
+}
+
+.form-wrapper {
+    background-color: white;
+    width: 320px;
+    height: 60vh !important;
+    box-shadow: 0 0 8px black;
+}
